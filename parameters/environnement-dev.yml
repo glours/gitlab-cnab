@@ -1,0 +1,10 @@
+gitlab:
+  ports:
+    ssh: 22
+    http: 80
+    https: 443
+gitlab-runner:
+  replicas: 2
+secrets:
+  rootpassword:
+    file: ./root_password.txt
