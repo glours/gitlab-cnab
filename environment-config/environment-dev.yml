@@ -4,7 +4,7 @@ gitlab:
     http: 80
     https: 443
 gitlabrunner:
-  replicas: 4
+  replicas: 2
 config:
   gitlab:
     file: ./gitlab-config/gitlab.rb

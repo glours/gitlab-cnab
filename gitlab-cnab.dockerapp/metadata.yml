@@ -3,8 +3,8 @@ version: 0.1.0
 # Name of the application
 name: gitlab-cnab
 # A short description of the application
-description: 
+description: CNAB version of Gitlab
 # List of application maintainers with name and email for each
 maintainers:
-  - name: gulliaumelours
-    email: 
+  - name: Guillaume Lours
+    email: guillaume.lours@docker.com

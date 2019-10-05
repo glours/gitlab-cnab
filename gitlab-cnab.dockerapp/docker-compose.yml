@@ -21,10 +21,10 @@ services:
     image: gitlab/gitlab-runner:alpine
     deploy:
       mode: replicated
-      replicas: ${gitlab-runner.replicas}
+      replicas: ${gitlabrunner.replicas}
 configs:
   gitlab:
-    file: ./gitlab.rb
+    file: ${config.gitlab.file}
 secrets:
   gitlab-root-password:
     file: ${secrets.rootpassword.file}
